@@ -1,0 +1,9 @@
+- id: pip-requirements-changed
+  name: pip requirements changed
+  description: compare pip freeze to requirements.txt
+  entry: did_pip_requirements_change.sh
+  language: script
+  files: ""
+  pass_filenames: false
+  types: []
+  always_run: true
